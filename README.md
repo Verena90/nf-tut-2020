@@ -248,6 +248,7 @@ Nextflow supports several visualisation tools:
 #### 1.4.1. `dag`
 ```
 nextflow run cleandups.nf -with-dag <file-name>.dot
+dot Tpdf flow.dot > flow.pdf
 ```
 <p align="center">
   <img width="250" src="_static/images/dag.png">
